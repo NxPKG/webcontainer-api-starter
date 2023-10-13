@@ -17,7 +17,7 @@ Cross-Origin-Embedder-Policy: require-corp
 Cross-Origin-Opener-Policy: same-origin
 ```
 
-You can check [our article](https://blog.nxpkg.com/posts/cross-browser-with-coop-coep/) on the subject and our [docs on browser support](https://developer.nxpkg.com/docs/platform/browser-support) for more details.
+You can check [our article](https://blog.nxpkg.khulnasoft.com/posts/cross-browser-with-coop-coep/) on the subject and our [docs on browser support](https://dev-nxpkg.khulnasoft.com/docs/platform/browser-support) for more details.
 
 ## Serve over HTTPS
 
@@ -111,7 +111,7 @@ async function startDevServer() {
 
 ## Troubleshooting
 
-Cookie blockers, either from third-party addons or built-in into the browser, can prevent WebContainer from running correctly. Check the `on('error')` event and our [docs](https://developer.nxpkg.com/docs/platform/third-party-blocker).
+Cookie blockers, either from third-party addons or built-in into the browser, can prevent WebContainer from running correctly. Check the `on('error')` event and our [docs](https://dev-nxpkg.khulnasoft.com/docs/platform/third-party-blocker).
 
 To troubleshoot other problems, check the [Troubleshooting page](https://webcontainers.io/guides/troubleshooting) in our docs.
 
